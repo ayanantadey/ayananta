@@ -18,7 +18,7 @@ def main():
     result = 0
   else:
     result=num1/num2
-  
+    
   st.success('The output is {}'.format(result))
   
 if __name__=='__main__':
