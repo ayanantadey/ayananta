@@ -18,20 +18,6 @@ def main():
     result='Punaray chesta korun, ektu kom hoye gelo'
   else(num1>52):
     result='Etotao noy, aapni barabari kore felechen'
-  num1 = st.number_input("Enter Number")
-  if(num1==52):
-    result = 'Sathik Uttar'
-  elseif(num1<52):
-    result='Holo na, abar kom hoye gelo'
-  else(num1>52):
-    result='Abar barabari korchen'
-  num1 = st.number_input("Enter Number")
-  if(num1==52):
-    result = 'Sathik Uttar'
-  elseif(num1<52):
-    result='Chere din, aapni bondhur naame dhitkar dibas palon korun'
-  else(num1>52):
-    result='Onek hoyeche, apnar dara hobe na'
   st.success('The output is {}'.format(result))
   
 if __name__=='__main__':
