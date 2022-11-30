@@ -21,5 +21,5 @@ def main():
   
   st.success('The output is {}'.format(result))
   
-if __name__=='__main__':
+if __name__and__main__:
   main()
