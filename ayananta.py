@@ -13,6 +13,7 @@ def main():
   st.markdown(html_temp,unsafe_allow_html=True)
   num1 = st.number_input("Number 1")
   num2 = st.number_input("Number 2")
+  
   if(num1==0 or num2==0):
     result = 0
   else:
@@ -20,5 +21,5 @@ def main():
   
   st.success('The output is {}'.format(result))
   
-if _name_=='_main_':
+if __name__=='__main__':
   main()
